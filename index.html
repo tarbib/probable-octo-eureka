@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Toulouse | Les Meilleurs Studios et Cours de Yoga</title>
+    <meta name="description" content="Découvrez les meilleurs studios de yoga à Toulouse. Vinyasa, Hatha, Ashtanga, Yin Yoga... Trouvez le cours idéal près de chez vous avec notre carte interactive.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Trouvez votre équilibre à <span>Toulouse</span></h1>
+            <p>Le guide ultime des meilleurs studios de yoga de la Ville Rose. Trouvez le cours qui vous correspond.</p>
+            <a href="#map-section" class="btn">Voir la carte des studios</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="seo-intro">
+            <h2>Pourquoi pratiquer le Yoga à Toulouse ?</h2>
+            <p>Toulouse regorge de studios magnifiques, du quartier des Carmes jusqu'au nord de la ville. Que vous cherchiez un <strong>Vinyasa dynamique</strong> pour transpirer, un <strong>Yin Yoga</strong> pour relâcher la pression, ou un <strong>Ashtanga</strong> traditionnel, <em>Yoga In Toulouse</em> répertorie pour vous les meilleures adresses.</p>
+        </section>
+
+        <section id="map-section" class="map-container">
+            <h2>Carte des Studios de Yoga</h2>
+            <div id="map"></div>
+        </section>
+
+        <section class="clubs-list">
+            <h2>Nos Studios Recommandés</h2>
+            <div class="grid">
+                <!-- CLUBS INJECTED HERE -->
+                
+                <article class="club-card">
+                    <h3>Peacock Toulouse</h3>
+                    <p class="club-type">Vinyasa, Hatha, Yin</p>
+                    <p class="club-address">📍 20 rue de la Bourse, 31000 Toulouse</p>
+                    <p>Un lieu unique qui réunit un studio de yoga, une cantine végétarienne et un concept store. Idéal pour une expérience bien-être complète au cœur de Toulouse.</p>
+                    <a href="clubs/peacock-toulouse.html" class="btn-outline">Découvrir le studio</a>
+                </article>
+    
+                <article class="club-card">
+                    <h3>Le Singe Yoga Studio</h3>
+                    <p class="club-type">Tous niveaux, Dynamique, Relaxation</p>
+                    <p class="club-address">📍 21 Place du Salin, 31000 Toulouse</p>
+                    <p>Dans le quartier des Carmes, un cocon de douceur et de bien-être. Professeurs certifiés et abonnements ultra flexibles.</p>
+                    <a href="clubs/le-singe-yoga.html" class="btn-outline">Découvrir le studio</a>
+                </article>
+    
+                <article class="club-card">
+                    <h3>Bagheera Yoga Club</h3>
+                    <p class="club-type">Vinyasa, Yin Candle, Flying Yoga</p>
+                    <p class="club-address">📍 Sporting Village, Toulouse Nord</p>
+                    <p>Au sein du Sporting Village, un espace où modernité et traditionnel se rencontrent. Cours doux ou dynamiques pour tous.</p>
+                    <a href="clubs/bagheera-yoga.html" class="btn-outline">Découvrir le studio</a>
+                </article>
+    
+                <article class="club-card">
+                    <h3>Yogaventure</h3>
+                    <p class="club-type">Hatha, Vinyasa, Doux</p>
+                    <p class="club-address">📍 42 rue de la Pomme, 31000 Toulouse</p>
+                    <p>Bulle de calme en plein centre-ville pour éliminer le stress du quotidien. Professeurs bienveillants et approches variées.</p>
+                    <a href="clubs/yogaventure.html" class="btn-outline">Découvrir le studio</a>
+                </article>
+    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yoga In Toulouse - Fièrement hébergé sur GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
